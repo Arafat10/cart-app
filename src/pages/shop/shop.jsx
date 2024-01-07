@@ -2,6 +2,13 @@ import React from 'react'
 
 export const Shop = () => {
   return (
-    <div>S</div>
+    <div className='shop'>
+        <div className='shopTitle'>
+            <h1>Shop</h1>
+        </div>
+        <div className='products'>
+            s
+        </div>
+    </div>
   )
 }
