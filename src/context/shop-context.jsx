@@ -1,4 +1,4 @@
-import React, { createContext } from 'react';
+import React, { createContext, useState, useEffect } from 'react';
 import { PRODUCTS } from '../products';
 
 export const ShopContext = createContext(null);
